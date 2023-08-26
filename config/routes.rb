@@ -1,5 +1,3 @@
 # frozen_string_literal: true
 
-DiscourseMessageBusCorsModule::Engine.routes.draw do
-
-end
+DiscourseMessageBusCorsModule::Engine.routes.draw {}

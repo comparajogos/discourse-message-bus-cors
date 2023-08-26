@@ -21,6 +21,11 @@ after_initialize do
   MessageBus.extra_response_headers_lookup do |env|
     headers = block.call(env)
 
-    headers.merge({ "Access-Control-Allow-Origin" => "http://localhost:3000" })
+    headers.merge(
+      {
+        "Access-Control-Allow-Credentials" => true,
+        "Access-Control-Allow-Origin" => "http://localhost:3000",
+      },
+    )
   end
 end
