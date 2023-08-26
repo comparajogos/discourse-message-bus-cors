@@ -1,5 +1,5 @@
-# **Plugin Name** Plugin
+# **Discourse Message Bus CORS** Plugin
 
 **Plugin Summary**
 
-For more information, please see: **url to meta topic**
+Development CORS test

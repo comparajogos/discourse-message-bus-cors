@@ -1,4 +1,4 @@
 plugins:
-  plugin_name_enabled:
+  discourse_message_bus_cors_enabled:
     default: false
     client: true
