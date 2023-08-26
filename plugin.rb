@@ -23,7 +23,7 @@ after_initialize do
 
     headers.merge(
       {
-        "Access-Control-Allow-Credentials" => true,
+        "Access-Control-Allow-Credentials" => "true",
         "Access-Control-Allow-Origin" => "http://localhost:3000",
       },
     )
